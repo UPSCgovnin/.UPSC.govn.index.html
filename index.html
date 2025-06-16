@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>UPSC Exam Portal 2025</title>
   <style>
     body {
@@ -12,12 +12,27 @@
     header {
       background-color: #0b3d91;
       color: white;
-      padding: 20px;
-      text-align: center;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    header img {
-      height: 80px;
-      margin-bottom: 10px;
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 60px;
+      margin-right: 15px;
+    }
+    .logo-text {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .gov-link a {
+      color: #ffffff;
+      text-decoration: underline;
+      font-size: 14px;
     }
     nav {
       background-color: #062c6a;
@@ -67,9 +82,13 @@
 <body>
 
 <header>
-  <img src="upsc-logo.png" alt="UPSC Logo">
-  <h1>Union Public Service Commission</h1>
-  <p>Exam Information Portal – 2025</p>
+  <div class="logo">
+    <img src="logo.png" alt="UPSC Logo" />
+    <div class="logo-text">Union Public Service Commission<br><small>Exam Information Portal – 2025</small></div>
+  </div>
+  <div class="gov-link">
+    <a href="https://upsc.gov.in" target="_blank">Go to Official UPSC Website</a>
+  </div>
 </header>
 
 <nav>
@@ -77,15 +96,15 @@
   <a href="#">Exams</a>
   <a href="#">Notices</a>
   <a href="#">Results</a>
-  <a href="https://upsc.gov.in" target="_blank">UPSC Official</a>
+  <a href="#">Contact</a>
 </nav>
 
 <div class="container">
   <h2>Download Official Documents</h2>
   <ul>
     <li><a class="pdf-link" href="exam_notice.pdf" target="_blank">📄 UPSC Exam Notice 2025</a></li>
-    <li><a class="pdf-link" href="rolllist-english.pdf" target="_blank">📄 Roll List (English)</a></li>
-    <li><a class="pdf-link" href="rolllist-hindi.pdf" target="_blank">📄 Roll List (Hindi)</a></li>
+    <li><a class="pdf-link" href="CSP-2025-WR-RollList-Engl-110625.pdf" target="_blank">📄 Roll List (English)</a></li>
+    <li><a class="pdf-link" href="CSP-2025-WR-RollList-Hindi-110625.pdf" target="_blank">📄 Roll List (Hindi)</a></li>
   </ul>
 </div>
 
