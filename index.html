@@ -2,37 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>UPSC Exam Info - 2025</title>
+  <title>UPSC Exam Portal 2025</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f5f5f5;
-      color: #000;
+      background-color: #f0f4f8;
     }
-    header, nav, footer {
+    header {
       background-color: #0b3d91;
       color: white;
-      padding: 15px;
+      padding: 20px;
       text-align: center;
     }
-    .top-links {
-      background: #f0f0f0;
-      color: #000;
+    nav {
+      background-color: #062c6a;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
       padding: 10px;
-      font-size: 14px;
-      text-align: center;
     }
-    .top-links a {
-      margin: 0 10px;
+    nav a {
+      color: white;
       text-decoration: none;
-      color: #0b3d91;
+      font-weight: bold;
     }
     .container {
-      max-width: 1200px;
+      padding: 30px;
+      max-width: 900px;
       margin: auto;
-      padding: 20px;
-      background: #fff;
+      background: white;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     h2 {
       color: #0b3d91;
@@ -42,26 +44,32 @@
       padding-left: 0;
     }
     li {
-      margin: 8px 0;
+      margin: 10px 0;
     }
     a.pdf-link {
-      text-decoration: none;
       color: #0b3d91;
       font-weight: bold;
+      text-decoration: none;
     }
-    .whats-new {
-      background: #eef2f9;
-      padding: 15px;
-      border-left: 5px solid #0b3d91;
-      margin-bottom: 20px;
-    }
-    .footer-note {
-      font-size: 12px;
-      background: #0b3d91;
-      color: #fff;
+    footer {
+      background-color: #0b3d91;
+      color: white;
       padding: 20px;
+      margin-top: 40px;
     }
-    .footer-note a {
+    .footer-sections {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+    .footer-sections h3 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 20px;
+    }
+    .footer-sections a {
       color: #fff;
       text-decoration: underline;
     }
@@ -69,53 +77,74 @@
 </head>
 <body>
 
-<div class="top-links">
-  SiteMap | <a href="#main">Skip to main content</a> | 
-  Search - Keyword, Phrase | 
-  <a href="#">A+</a> <a href="#">A</a> <a href="#">A-</a> | 
-  <a href="#">LinkedIn</a> | <a href="#">हिन्दी</a>
-</div>
-
 <header>
-  <h1>संघ लोक सेवा आयोग<br>UNION PUBLIC SERVICE COMMISSION</h1>
+  <h1>Union Public Service Commission</h1>
   <p>Exam Information Portal – 2025</p>
 </header>
 
 <nav>
-  <a href="#">About Us</a> |
-  <a href="#">Examination</a> |
-  <a href="#">Recruitment</a> |
-  <a href="#">Forms & Downloads</a> |
-  <a href="#">RTI</a> |
-  <a href="#">Helpline: 1800-118-711</a> |
-  <a href="https://upsc.gov.in" target="_blank">Go to UPSC.gov.in</a>
+  <a href="#">Home</a>
+  <a href="#">Exams</a>
+  <a href="#">Notices</a>
+  <a href="#">Results</a>
+  <a href="https://upsc.gov.in" target="_blank">UPSC.gov.in</a>
 </nav>
 
-<div class="container" id="main">
-  <h2>What’s New</h2>
-  <div class="whats-new">
-    <ul>
-      <li>Common mistakes while filling OMR Sheet/Attendance List</li>
-      <li>Final Result: Civil Services (Preliminary) Examination, 2025</li>
-      <li>e-Admit Card: Indian Economic Service Examination, 2025</li>
-      <li>Interview Details: Scientist 'B', Ministry of Jal Shakti</li>
-      <li>Reserve List: Combined Medical Services Examination, 2024</li>
-      <li>Final Result: Indian Forest Service (Main) Examination, 2024</li>
-      <li>Examination Time Table: Indian Economic Service - Indian Statistical Service Examination, 2025</li>
-    </ul>
-  </div>
-
+<div class="container">
   <h2>Download Official Documents</h2>
   <ul>
     <li><a class="pdf-link" href="exam_notice.pdf" target="_blank">📄 UPSC Exam Notice 2025</a></li>
-    <li><a class="pdf-link" href="CSP-2025-WR-RollList-Engl.pdf" target="_blank">📄 Roll List (English)</a></li>
-    <li><a class="pdf-link" href="CSP-2025-WR-RollList-Hindi.pdf" target="_blank">📄 Roll List (Hindi)</a></li>
+    <li><a class="pdf-link" href="rolllist_english.pdf" target="_blank">📄 Roll List (English)</a></li>
+    <li><a class="pdf-link" href="rolllist_hindi.pdf" target="_blank">📄 Roll List (Hindi)</a></li>
   </ul>
 </div>
 
-<footer class="footer-note">
-  &copy; 2025 Union Public Service Commission | Powered by GitHub Pages |
-  Visit: <a href="https://upsc.gov.in" target="_blank">upsc.gov.in</a>
+<footer>
+  <div class="footer-sections">
+    <h3>About Us</h3>
+    <p>
+      Historical Perspective | Constitutional Provisions | The Commission | Functions |
+      Secretariat | Divisions | Citizen's Charter | EOP for PwD Employees of UPSC |
+      Directory | Museum | Virtual Tour of Museum
+    </p>
+
+    <h3>Examination</h3>
+    <p>
+      Calendar | To apply for examinations visit new Application Portal - 
+      <a href="https://upsconline.nic.in" target="_blank">https://upsconline.nic.in</a><br>
+      Forthcoming Examinations: S.O. - Steno (GD-B-GD-I) LDCE, Engineering Services (Preliminary) Examination, 2026
+    </p>
+
+    <h3>Recruitment</h3>
+    <p>
+      Advertisements | Status of Lateral Recruitment Cases | Online Recruitment Application (ORA) |
+      Status of Recruitment Cases | Forms for Certificates | Recruitment Tests | 
+      Recruitment Requisition | Recruitment cases kept on hold | Representation on Question Papers |
+      Examination Notifications | Apply Online | Admit Cards | Results | Interviews | Final Results | Tenders
+    </p>
+
+    <h3>Other Resources</h3>
+    <p>
+      Annual Reports | e-Appointment | Court Judgments | Green Initiatives | Archives
+    </p>
+
+    <h3>External Links</h3>
+    <p>
+      National Portal of India | Department of Personnel & Training | 
+      State Public Service Commissions | Commission of Scientific & Technical Terminology | SHe-Box
+    </p>
+
+    <h3>More</h3>
+    <p>
+      Hon'ble Chairman's Speech | Advisers Corner | Employees Corner | Vacancies in UPSC | 
+      News Letters | Website Policies | Help | Contact us | Feedback | Privacy Policy | Disclaimer
+    </p>
+
+    <p style="margin-top: 30px;">
+      Website Content Managed by © Union Public Service Commission, New Delhi, India.<br>
+      Last Updated: 16 Jun 2025 | Visitor No: 862670044 (Since: 15 Sep 2016)
+    </p>
+  </div>
 </footer>
 
 </body>
